@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="serviços, profissionais, busca">
+    <meta name="description" content="Projeto curso Proz">
+    <meta name="author" content="Kelly Renata">
+    <title>Vitrine Virtual - Profissionais</title>
+    <link rel="stylesheet" type="text/css " href="./css/style_profissionais.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="./js/profissionais.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<header class="logotipo">
+    <img src="./img/img_index/logo.jpeg" width="200" height="100" alt="Logo Vitrine Virtual">
+    <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="./index.html" >Home</a>
+        <a class="cabecalho__menu__link" href="./profissionais.html">Encontre um Profissional</a>
+        <a class="cabecalho__menu__link" href="./about.html">Sobre Nós</a>
+        <a class="cabecalho__menu__link" href="./nossos_servicos.html">Nossos Serviços</a>
+        <a class="cabecalho__menu__link" href="./clientes.html">Clientes</a>
+    </nav>
+</header>
+
+<body>
+    <div class="container-body">
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </header>
+        <div class="galeria">
+            <img src="./img/img_profissionais/pilates.png" alt="Imagem 1">
+            <img src="./img/img_profissionais/shampoo.png" alt="Imagem 2">
+            <img src="./img/img_profissionais/consultation.png" alt="Imagem 3">
+            <img src="./img/img_profissionais/tool-box.png" alt="Imagem 4">
+            <img src="./img/img_profissionais/plumber-35611_640.png" alt="imagem 10">
+            <img src="./img/img_profissionais/woman-8686907_640.png" alt="imagem 11">
+            <img src="./img/img_profissionais/businessman-607788_640.png" alt="imagem 12">
+            <img src="./img/img_profissionais/building-4380054_640.png" alt="imagem 13">
+        </div>
+
+        <div class="carrossel_container">
+            <div class="titulo-carousel">
+                <h3><i>Mais de 500 tipos de serviços em um só lugar.</i></h3>
+            </div>
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="./img/img_profissionais/ai-generated-8588246_640.jpg" title="Instituto de Enfermagem Ltda">
+                    <img src="./img/img_profissionais/architect-1080589_640.jpg" title="Arquitetura Futura Ltda">
+                    <img src="./img/img_profissionais/camera-7726802_640.jpg" title="Foto Studio Ltda">
+                    <img src="./img/img_profissionais/man-597178_640.jpg" title="Mentoria & Sucesso Ltda">
+                    <img src="./img/img_profissionais/employees-885338_640.jpg" title="Consultoria Malta Ltda">
+                    <img src="./img/img_profissionais/girl-1531575_640.jpg" title="Limpeza & Organização Ltda">
+                    <img src="./img/img_profissionais/babysitting-7422132_640.jpg" title="Baba Perfeita Ltda">
+                    <img src="./img/img_profissionais/doctor-5710152_640.jpg" title="Medico Amigo Ltda">
+                    <img src="./img/img_profissionais/books-5562065_640.jpg" title="Mentoria Ltda">
+
+
+
+                </div>
+
+                <div class="carousel-buttons">
+                    <button onclick="prevSlide()">❮</button>
+                    <button onclick="nextSlide()">❯</button>
+                </div>
+            </div>
+        </div>
+
+        <div id=" divConteudo">
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>CATEGORIA</th>
+                        <th>EMPRESA</th>
+                        <th>LOCALIZAÇÃO</th>
+                        <th>REGIÃO</th>
+                        <th>AVALIAÇÃO</th>
+                    </tr>
+                    <tr>
+                        <th><input type="text" id="txtColuna1" /></th>
+                        <th><input type="text" id="txtColuna2" /></th>
+                        <th><input type="text" id="txtColuna3" /></th>
+                        <th><input type="text" id="txtColuna4" /></th>
+                        <th><input type="text" id="txtColuna5" /></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Consultoria</td>
+                        <td>LV Consultoria de Impacto Social</td>
+                        <td>Belo Horizonte</td>
+                        <td>Sudeste</td>
+                        <td>Excelente</td>
+                    </tr>
+                    <tr>
+                        <td>Consultoria</td>
+                        <td>KIIL Soluções Contabeis</td>
+                        <td>Sabará</td>
+                        <td>Sudeste</td>
+                        <td>Bom</td>
+                    </tr>
+                    <tr>
+                        <td>Engenharia</td>
+                        <td>Moretti Engenharia e Construções</td>
+                        <td>Belo Horizonte</td>
+                        <td>Nordeste</td>
+                        <td>Bom</td>
+                    </tr>
+                    <tr>
+                        <td>Salão de Beleza</td>
+                        <td>Socila</td>
+                        <td>Betim</td>
+                        <td>Leste</td>
+                        <td>Excelente</td>
+                    </tr>
+                    <tr>
+                        <td>Salão de Beleza</td>
+                        <td>Beleza Rara</td>
+                        <td>Santa Luzia</td>
+                        <td>Norte</td>
+                        <td>Bom</td>
+                    </tr>
+                    <tr>
+                        <td>Salão de Beleza</td>
+                        <td>Instituto da Beleza</td>
+                        <td>Belo Horizonte</td>
+                        <td>Norte</td>
+                        <td>Ruim</td>
+                    </tr>
+                    <tr>
+                        <td>Pilates</td>
+                        <td>Corpo&Mente</td>
+                        <td>Belo Horizonte</td>
+                        <td>Sudeste</td>
+                        <td>Excelente</td>
+                    </tr>
+                    <tr>
+                        <td>Pilates</td>
+                        <td>Movimento do Corpo</td>
+                        <td>Oeste</td>
+                        <td>Belo Horizonte</td>
+                        <td>Bom</td>
+                    </tr>
+                    <tr>
+                        <td>Pilates</td>
+                        <td>Saúde&Vida</td>
+                        <td>Belo Horizonte</td>
+                        <td>Sudeste</td>
+                        <td>Ruim</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <h2>Saiba mais sobre os nossos parceiros.</h2>
+    </div>
+    <footer>
+            <div class="footer-section">
+            <img src="./img/img_profissionais/instagram.png" alt="Logo Instagram">
+            <img src="./img/img_profissionais/facebook.png" alt="Logo Facebook">
+            <img src="./img/img_profissionais/whatsapp.png" alt="Logo whatsapp">
+            </div>
+    </footer>
+</body>
+
+</html>

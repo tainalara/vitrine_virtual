@@ -1,0 +1,232 @@
+/*body{
+    font-family:nico moji;
+    text-align:center;
+    
+    margin: 0;
+    height: 100vh;
+    background-color: #333131;
+}*/
+body {
+    font-family: "Orbitron", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #333131;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+.container-body {
+    padding-bottom: 120px;
+}
+
+#tabela {
+    width: 95%;
+    border: solid 1px;
+    /* text-align:center;*/
+    color: #333131;
+    border-collapse: collapse;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+#tabela tbody tr {
+    color: white;
+    border: solid 1px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+#tabela thead {
+    background-color: #333131;
+    color: white;
+
+}
+
+#tabela thead th:nth-child(1) {
+    width: 100px;
+    color: white;
+
+}
+
+#tabela input {
+    color: rgb(86, 176, 250);
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+tr {
+    font-size: 25px;
+}
+
+td {
+    font-size: 25px;
+}
+
+footer {
+    min-height: 120px;
+    max-height: 120px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #333131;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 25px;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+header2 {
+    text-align: right;
+    color: white;
+    font-family: comic Arial, Helvetica;
+}
+
+.titulo-carousel {
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    color: white;
+    font-family: comic Arial, Helvetica, sans-serif, cursive;
+    font-size: 80PX;
+
+}
+
+.carrossel_container {
+    display: flex;
+    margin: 10px;
+}
+
+header4 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333131;
+    height: 30mm;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    border-top: 2px solid white;
+    padding: 10px;
+    display: flex;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-bar button:hover {
+    background-color: #218838;
+}
+
+.search-bar button:hover {
+    background-color: #218838;
+}
+
+.galeria {
+    display: flex;
+    /* Usar flexbox para alinhar as imagens em linha */
+    justify-content: space-around;
+    /* Espaçamento igual entre as imagens */
+    border-bottom: 2px solid white;
+}
+
+.galeria img {
+    max-width: 70px;
+    /* Tamanho máximo para as imagens */
+    margin: 10px;
+    /* Espaços entre as imagens */
+    border-radius: 8px;
+    /* Bordas arredondadas para as imagens (opcional) */
+
+}
+
+.menu {
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+a {
+    margin-right: 20px;
+    color:white;
+}
+
+.logo img {
+    width: 250px;
+    height: 150px;
+}
+
+.carousel {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.carousel-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-images {
+    width: 600px;
+    height: 500px;
+
+}
+
+p {
+    color: white;
+}
